@@ -16,15 +16,21 @@ public class Date {
     }
     //===Methods===
     static Scanner scanner = new Scanner(System.in);
-    public static double day (){
+    public static int  day (){
         System.out.println("Enter a day:  ");
         return scanner.nextInt();
     }
-    public static double month (){
+    public static int month (int m){
         System.out.println("Enter a month:  ");
 
-        switch ()
-        return scanner.nextInt();
+        switch (m){
+            case 01:
+                return "January";
+
+        }
+
+    }
+
 
 
     //=============
